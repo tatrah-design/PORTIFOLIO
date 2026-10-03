@@ -1,0 +1,195 @@
+/* General Page Style */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #f4f4f4;
+    color: #222;
+}
+
+/* Header */
+
+header {
+    background-color: #222;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0 0 15px 0;
+}
+
+/* Navigation */
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* Sections */
+
+section {
+    padding: 60px 20px;
+    max-width: 1000px;
+    margin: auto;
+}
+
+section h2 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+/* Home */
+
+.home {
+    background-color: #ddd;
+    text-align: center;
+    padding: 100px 20px;
+}
+
+.home h2 {
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+.home h3 {
+    font-size: 22px;
+}
+
+.home p {
+    max-width: 600px;
+    margin: 20px auto;
+    line-height: 1.6;
+}
+
+/* Buttons */
+
+.button,
+button {
+    display: inline-block;
+    background-color: #222;
+    color: white;
+    padding: 12px 20px;
+    margin: 10px 5px;
+    border: none;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.button:hover,
+button:hover {
+    background-color: #555;
+}
+
+/* Skills */
+
+.skills-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.skill {
+    background-color: white;
+    border: 1px solid #ccc;
+    padding: 20px;
+    width: 250px;
+    text-align: center;
+}
+
+/* Projects */
+
+.projects-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.project {
+    background-color: white;
+    border: 1px solid #ccc;
+    padding: 20px;
+    width: 400px;
+}
+
+.project h3 {
+    margin-top: 0;
+}
+
+/* Education */
+
+.education-box {
+    background-color: white;
+    border: 1px solid #ccc;
+    padding: 30px;
+    text-align: center;
+}
+
+/* Contact Form */
+
+form {
+    background-color: white;
+    max-width: 600px;
+    margin: auto;
+    padding: 25px;
+    border: 1px solid #ccc;
+}
+
+label {
+    display: block;
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid #aaa;
+}
+
+textarea {
+    height: 120px;
+}
+
+#result {
+    text-align: center;
+    font-weight: bold;
+}
+
+/* Footer */
+
+footer {
+    background-color: #222;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Mobile Screen */
+
+@media screen and (max-width: 600px) {
+
+    nav a {
+        display: block;
+        margin: 10px;
+    }
+
+    .home h2 {
+        font-size: 30px;
+    }
+
+    .project,
+    .skill {
+        width: 100%;
+    }
+}

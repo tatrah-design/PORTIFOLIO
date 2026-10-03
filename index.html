@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Robert's Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <h1>Robert's Portfolio</h1>
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#about">About Me</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#education">Education</a>
+        <a href="#contact">Contact</a>
+    </nav>
+</header>
+
+<section id="home" class="home">
+    <h2>Hello, I'm Robert</h2>
+    <h3>Computer Science Student & Aspiring Software Developer</h3>
+    <p>
+        Welcome to my portfolio website. I am interested in programming,
+        web development, databases and technology.
+    </p>
+    <a href="#projects" class="button">View My Projects</a>
+    <a href="#contact" class="button">Contact Me</a>
+</section>
+
+<section id="about">
+    <h2>About Me</h2>
+    <p>
+        My name is Robert and I am a university student interested in
+        Computer Science and technology. I am learning how to create
+        websites, write programs and work with databases.
+    </p>
+    <p>
+        I enjoy learning new technologies and building simple systems
+        that can solve real-world problems.
+    </p>
+</section>
+
+<section id="skills">
+    <h2>My Skills</h2>
+    <div class="skills-container">
+        <div class="skill">
+            <h3>HTML</h3>
+            <p>I use HTML to create the structure of websites.</p>
+        </div>
+        <div class="skill">
+            <h3>CSS</h3>
+            <p>I use CSS to design and style websites.</p>
+        </div>
+        <div class="skill">
+            <h3>JavaScript</h3>
+            <p>I use JavaScript to add simple interaction to websites.</p>
+        </div>
+        <div class="skill">
+            <h3>SQL</h3>
+            <p>I am learning how to create and work with databases.</p>
+        </div>
+        <div class="skill">
+            <h3>Problem Solving</h3>
+            <p>I enjoy using programming to solve problems.</p>
+        </div>
+    </div>
+</section>
+
+<section id="projects">
+    <h2>My Projects</h2>
+    <div class="projects-container">
+
+        <div class="project">
+            <h3>University Food Ordering System</h3>
+            <p>
+                A proposed system that allows university students to order
+                meals in advance and receive them at a selected time.
+            </p>
+            <p><strong>Technologies:</strong> HTML, CSS, JavaScript and Database</p>
+        </div>
+
+        <div class="project">
+            <h3>University Website</h3>
+            <p>
+                A simple university website created using HTML and CSS.
+                The website contains different pages and navigation links.
+            </p>
+            <p><strong>Technologies:</strong> HTML and CSS</p>
+        </div>
+
+        <div class="project">
+            <h3>Student Database System</h3>
+            <p>
+                A database project designed to store and manage student
+                information using tables and SQL.
+            </p>
+            <p><strong>Technologies:</strong> SQL and Database Design</p>
+        </div>
+
+        <div class="project">
+            <h3>JavaScript Programming Exercises</h3>
+            <p>
+                A collection of JavaScript programs created while learning
+                loops, arrays, functions and conditions.
+            </p>
+            <p><strong>Technology:</strong> JavaScript</p>
+        </div>
+
+    </div>
+</section>
+
+<section id="education">
+    <h2>Education</h2>
+    <div class="education-box">
+        <h3>Lancaster University Ghana</h3>
+        <p>University Student</p>
+        <p>
+            Areas of study include programming, information systems,
+            databases and web development.
+        </p>
+    </div>
+</section>
+
+<section id="contact">
+    <h2>Contact Me</h2>
+    <p>If you would like to contact me, send me a message below.</p>
+
+    <form id="contactForm">
+        <label for="name">Name</label>
+        <input type="text" id="name" placeholder="Enter your name">
+
+        <label for="email">Email</label>
+        <input type="email" id="email" placeholder="Enter your email">
+
+        <label for="message">Message</label>
+        <textarea id="message" placeholder="Enter your message"></textarea>
+
+        <button type="submit">Send Message</button>
+    </form>
+
+    <p id="result"></p>
+</section>
+
+<footer>
+    <p>© <span id="year"></span> Robert's Portfolio</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
